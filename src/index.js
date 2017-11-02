@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import NavBar from './NavBar'
-import './style.css'
+import './assets/css/doc.css'
+
 import AppRoutes from './routes'
 
 
@@ -11,6 +12,7 @@ class App extends Component {
             <div>
                 <NavBar/>
                 <div className="container">
+                    <br/><br/><br/><br/>
                     <AppRoutes />
                 </div>
             </div>
